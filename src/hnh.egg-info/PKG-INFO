@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hnh
+Version: 0.1.0
+Summary: Default template for PDM package
+Author-email: DONGUK777 <kimdongyork@gmail.com>, sunwoo <summerham22@gmail.com>
+License: MIT
+Requires-Python: ==3.11.*
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.115.0
+Requires-Dist: uvicorn>=0.30.6
+Requires-Dist: torch==2.2.2
+Requires-Dist: torchvision==0.17.2
+Requires-Dist: python-multipart>=0.0.10
+Requires-Dist: transformers>=4.45.0
+Requires-Dist: hnh@ file:///${PROJECT_ROOT}/
+Requires-Dist: tensorflow==2.16.2
+Requires-Dist: keras==3.0.0
+Requires-Dist: tf-keras>=2.16.0
+
+# hnh

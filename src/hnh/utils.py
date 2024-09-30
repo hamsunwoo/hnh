@@ -1,7 +1,6 @@
 def get_max_label(p):
     max_score = 0
     max_label = ""
-    #data = get_api()
     for i in p:
         if i['score'] > max_score:
             max_score = i['score']
@@ -11,7 +10,6 @@ def get_max_label(p):
 def get_max_score(p):
     max_score = 0
     max_label = ""
-    #data = get_api()
     for i in p:
         if i['score'] > max_score:
             max_score = i['score']

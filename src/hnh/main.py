@@ -38,14 +38,4 @@ async def create_upload_file(file: UploadFile):
     
     return l
 
-#@app.get("/predict/")
-#def pred(name: str):
-#    food = ["hot", "dog", "hotdog"]
-#    if name in food:
-#       result  = 'HotDog'
-#       return result
-#    else:
-#        result = 'Not HotDog'
-#        return result
-
 
